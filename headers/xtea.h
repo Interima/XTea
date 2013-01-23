@@ -11,6 +11,7 @@
 class XTea : public QObject, public PluginInterface
 {
     Q_OBJECT
+    Q_PLUGIN_METADATA(IID "x2.interima.xtea" FILE "xtea.json")
     Q_INTERFACES(PluginInterface)
 
 public:

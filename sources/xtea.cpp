@@ -1,4 +1,4 @@
-#include "tea.h"
+#include "xtea.h"
 #include <QString>
 #include <QDebug>
 
@@ -133,5 +133,3 @@ PluginInterface* XTea::clone()
 {
     return new XTea();
 }
-
-Q_EXPORT_PLUGIN2(XTea, XTea)
